@@ -52,3 +52,12 @@ for (const day of days) {
     const open = restaurant.openingHours[day]?.open ?? 'closed'; // If chaining is equal to undefined then it will default to closed, but because sat is equal to 0 which is falsy it triggers the second part when || is used
     console.log(open);
 };
+
+//for methods:
+
+console.log(restaurant.order?.(0,1) ?? 'Method does not exist');
+
+//Arrays
+
+const users = [ {name: 'Mil', email: 'random@'}];
+console.log(users[0]?.name ?? 'User array empty');
