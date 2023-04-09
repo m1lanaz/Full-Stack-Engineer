@@ -1,3 +1,4 @@
+
 const ordersSet = new Set(['Pasta', 'Pizza', 'Pizza','Pasta','Risotto']);
 
 console.log(ordersSet); // Doesn't print the duplicates
