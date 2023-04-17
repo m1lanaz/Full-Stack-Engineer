@@ -15,3 +15,9 @@ console.log(movements.every(mov => mov > 0));
 movementsNew = [1,2,3,4,5];
 
 console.log(movementsNew.every(mov => mov > 0));
+
+//seperate callback 
+
+const deposit = mov => mov > 0;
+
+console.log(movements.filter(deposit));
