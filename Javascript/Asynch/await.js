@@ -8,7 +8,7 @@ function toppings_choice (){
   
       },3000)
     })
-  }
+  }   
 
   async function kitchen(){
 
