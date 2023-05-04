@@ -1,0 +1,8 @@
+/* absolute = Removed from the document, no space created for them and other elements will behave as so, position relative to overal page, if want position relative
+to parent then define parents position property (not static )
+
+/* static = Nothing happens no access to top/right/bottom properties
+/* relative = Nothing happems but has access to top/right/bottom properties
+
+/* fixed = removed from document but sticks when scrolling
+/* stick = Same as fixed but gets fixed when we start scrolling. Top indicates where the item will stick
