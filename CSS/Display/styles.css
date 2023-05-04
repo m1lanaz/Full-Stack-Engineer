@@ -1,0 +1,11 @@
+p,h2,h3 {
+    border: 1px solid red;
+}
+
+span,a{
+    border: 1px solid blue;
+}
+/* Block level elements span the whole line (p)
+/* Inline span only the space they need (span)
+/* inherit will inherit from parent
+/* Inline-block behaves as inline element but allows you to apply height and width
