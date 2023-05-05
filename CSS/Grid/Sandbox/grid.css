@@ -1,0 +1,67 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+  display: grid; /* This is what creates it into a grid */
+  grid-template-columns: repeat(3,1fr); /* fr is fraction, use these for grid*/ 
+  /* columns decides the column size for the columns */
+  /* repeat is used as we have multiple columns with the same size */
+
+  gap: 10px; /* is column and row gap combined */ 
+
+ /*  grid-auto-rows:200px ; all will be same length */
+ /* grid-auto-rows: minmax(100px, auto);/* minimum size 100 max is whatever */
+
+  /* grid-template-rows:;  same as columns but not used as often*/
+
+  /*align-items:; stretch => stretches for the longest box, start => align to the top, center => align to the center of parent, 
+  end = > Align to bottom of parent */
+
+  /* justify-content moves the content inside the box */
+
+  
+
+}
+
+.item {
+  background: steelblue;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  border: skyblue 1px solid;
+}
+
+/*
+
+/* pseudo selector 
+.item:nth-of-type(1) {
+  background: pink;
+
+  /*grid-column-start: 1;
+  grid-column-end: 3;
+  grid-column: 1 / 3; /* spans across, ends at 2 
+
+}
+
+.item:nth-of-type(3) {
+  background: purple;
+  grid-row: 2/4; /* spans from row 2 to row 3 
+}
+
+*/
