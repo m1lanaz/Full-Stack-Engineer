@@ -5,10 +5,15 @@ header {
   
   .nav-list {
     border: var(--border-width) solid hsl(var(--clr-orange) / 0.5);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
   
   .nav-list > li {
     border: var(--border-width) solid hsl(var(--clr-green) / 0.5);
+    flex-grow: 1;
+    flex-shrink: 1;
   }
   
   .info {
