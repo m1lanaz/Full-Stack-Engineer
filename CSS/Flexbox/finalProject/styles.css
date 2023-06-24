@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: space-between;
+    padding: 0 290px;
+    align-items: center;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 20;
+}
+
+li {
+    padding: 0 10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
