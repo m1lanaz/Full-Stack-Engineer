@@ -13,22 +13,29 @@ while (userScore != 5 && compScore != 5){
     } else {
         compInput = 'paper'
     }
+    alert(`computer picks ${compInput} `)
 
     if(compInput == userInput){
         userScore++;
         compScore++;
-        console.log("Its a tie!")
+        alert("Its a tie!")
     } else if(
         (compInput == "rock" && userInput == "scissors") ||
         (compInput == "paper" && userInput == "rock") ||
         (compInput == "scissors" && userInput =="paper")
     ){
         compScore++;
-        console.log("Computer wins!");
+        alert("Computer wins!");
     } else{
         userScore ++;
-        console.log("User wins!");
+        alert("User wins!");
     }
 };
 
-
+if(userScore > compScore){
+    alert("User wins")
+} else if(compScore > userScore){
+    alert("Computer wins")
+}else{
+    alert("Everyone wins!")
+}
