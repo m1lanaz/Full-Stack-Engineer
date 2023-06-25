@@ -43,6 +43,7 @@ h1 {
     margin: 0;
     font-size: 48px;
     font-weight: bold;
+    color: white;
 }
 
 .placeholder-img {
@@ -70,4 +71,44 @@ h1 {
 .text-header {
     font-size: 18px;
     margin: 0 0 0 140px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 1;
+
+}
+
+.Box {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 4px solid;
+    border-radius:20px ;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-cards {
+    display: flex;
+    margin: 0 10%;
+}
+
+.Boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
 }
