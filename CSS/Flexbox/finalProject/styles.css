@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;
     color: #E5E7EB;
     justify-content: space-between;
-    padding: 0 290px;
+    padding: 0 150px;
     align-items: center;
     font-size: 18px;
 }
@@ -27,4 +27,47 @@ li {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-open {
+    height: 400px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.placeholder-img {
+    height: 300px;
+    width: 500px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0 140px 0 0;
+}
+
+.sign-up-button {
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.text-header {
+    font-size: 18px;
+    margin: 0 0 0 140px;
 }
