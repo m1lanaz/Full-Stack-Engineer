@@ -14,5 +14,21 @@ while (userScore != 5 && compScore != 5){
         compInput = 'paper'
     }
 
-    
-}
+    if(compInput == userInput){
+        userScore++;
+        compScore++;
+        console.log("Its a tie!")
+    } else if(
+        (compInput == "rock" && userInput == "scissors") ||
+        (compInput == "paper" && userInput == "rock") ||
+        (compInput == "scissors" && userInput =="paper")
+    ){
+        compScore++;
+        console.log("Computer wins!");
+    } else{
+        userScore ++;
+        console.log("User wins!");
+    }
+};
+
+
