@@ -6,8 +6,22 @@
     <title>Table practice basic</title>
 </head>
 <body>
+    <style>
+        table,td {
+            border: 1px solid rgb(180, 177, 177);
+            border-collapse: collapse;
+        }
+    </style>
     <h1>School timetable</h1>
-    <table style="border: solid 1px black;">
+    <table>
+        <colgroup>
+            <col span="2">
+            <col span="1" style="background-color:#97DB9A;">
+            <col span="1" style="width: 42px;">
+            <col span="1" style="background-color: #97DB9A;">
+            <col span="1" style="background-color:#DCC48E; border:4px solid #C1437A;">
+            <col span="2" style="width: 42px;">
+        </colgroup>
         <tr>
             <td></td>
             <td>Mon</td>
