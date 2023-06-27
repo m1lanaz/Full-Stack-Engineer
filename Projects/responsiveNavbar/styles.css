@@ -85,6 +85,10 @@ header{
     justify-content: center;
 }
 
+.dropdown_menu > li:first-child {
+    margin-top: 1rem;
+}
+
 .dropdown_menu .socialIconsList {
     font-size: 2rem;
     display: flex;
@@ -106,5 +110,12 @@ header{
 
     .dropdown_menu {
         display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropdown_menu {
+        left: 2rem;
+        width: unset;
     }
 }
